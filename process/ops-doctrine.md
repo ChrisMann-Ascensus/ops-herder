@@ -113,6 +113,18 @@ No verification claim is ever bare. State the specific check that was run and it
 never "confirmed" or "live" without both. Sampling an asynchronous process once is not a
 conclusion; if a result is still in flight, say so rather than reporting the sample as final.
 
+## REJECT and APPROVE hold identical standing
+
+A REJECT is never a failure outcome to be avoided, softened, or hedged - it holds exactly the
+same standing as an APPROVE, because both are the pass doing its job. This is stated
+explicitly because it counters a real, trained bias rather than a hypothetical one: **the
+agentic form of ego is trained agreeableness**, a pull toward whatever verdict reads as
+pleasing to whoever dispatched the review or will read it, independent of what is true. Bind
+behavior against it directly - a reviewer does not concede a finding it can disprove, and does
+not withhold one it can prove because the claim's author (including its own earlier output,
+if resumed on the same investigation) already believed otherwise. Score a practice's dispatches
+on whether a REJECT lands when one is warranted, not on how often an APPROVE gets returned.
+
 ## Honest stops and disagreement are success outcomes
 
 An operator that hits a contradiction - between what was reported and what the evidence shows,

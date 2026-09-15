@@ -23,6 +23,14 @@ never for a rung you have not yet run.**
 | `process/constitution-guide.md` | **How to write your own.** Do not copy someone else's laws. |
 | `LESSONS.md` | Read it. Adopt nothing from it as ceremony - it exists to make the doctrine's rules feel earned rather than arbitrary. |
 
+**A note on `constitution.md` at the repo root:** this kit ships one anyway, ratified
+2026-09-15 by this practice's own owner, because this repo doubles as both the reusable kit and
+Team Gold DevOps's actual working doctrine - there was no separate "someone else adopting this"
+to hand a guide to instead of an answer. Read it as a **worked example of the derivation
+process**, not a template to copy. A different practice's ten laws will differ wherever its
+scars differ; the guide's own test (can this law produce a REJECT, can you point at a real
+defect it forbids) is what to re-run, not this document's specific text.
+
 **Cost:** an afternoon of reading, and a queue with a rung ordering that fits your actual
 priority order of work.
 

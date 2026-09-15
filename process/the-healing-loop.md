@@ -2,8 +2,9 @@ Status: Current
 
 # The Healing Loop
 
-Companion to [`process/constitution-guide.md`](constitution-guide.md). The constitution is
-what this practice must never do; the Healing Loop is the metabolism - how the practice that
+Companion to [the constitution](../constitution.md) (see also `constitution-guide.md`, how it
+was derived). The constitution is what this practice must never do; the Healing Loop is the
+metabolism - how the practice that
 runs investigations repairs and hardens itself. Adapted from `agent-herder`'s Healing Loop,
 which named the same mechanism for a build practice; this is the same loop pointed at
 diagnosis instead of construction.
