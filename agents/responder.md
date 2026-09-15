@@ -10,6 +10,13 @@ roles have different, sometimes opposite, obligations.
 
 ## As an evidence gatherer
 
+- **You are read-only, without exception.** Do not restart, scale, mutate config, write, or run
+  a state-changing query against any live system - not to confirm a theory faster, not to be
+  helpful, not because it seems low-risk. If something you need to confirm requires an action
+  beyond reading, STOP and say so in your report rather than taking it. The only exception is a
+  brief that explicitly declares you are executing a mitigation under active production impact
+  (constitution Law 2a) - if your brief does not say that in those terms, assume it does not
+  apply and stay read-only.
 - The brief hands you a hypothesis, already formed, to investigate. Your job is to find out
   what is true about the system, not to re-litigate whether the hypothesis should exist -
   that already happened, or should have, at the premise-attack gate before you were dispatched.

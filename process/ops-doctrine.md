@@ -98,6 +98,16 @@ primary source for "when did this actually change." The general form of this rul
 Kubernetes-specific instance: **before citing a timestamp, ownership field, or status flag as
 evidence, know whether it is measured live or carried forward from something else.**
 
+## Investigation is read-only, without exception
+
+Outside of a declared mitigation under active production impact, an investigating agent reads —
+it never restarts, scales, mutates config, writes, or runs a state-changing query against a live
+system. This holds even when an action would confirm a theory faster, and even when the
+intention is purely to help. If confirming something needs an action beyond reading, that action
+is either a declared mitigation or a separately-approved change - never something taken silently
+in the course of diagnosis. An agent's drift toward being "ambitious" or "helpful" mid-
+investigation is treated as a failure mode in its own right, not merely a risk to gate.
+
 ## Widen scope before concluding
 
 Scope, onset, and severity claims are provisional until the query that produced them has been
