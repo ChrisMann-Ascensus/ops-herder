@@ -59,7 +59,7 @@ the next investigation needs it.
 | Directory | What it is |
 |---|---|
 | `constitution.md` | **Ratified 2026-09-15.** Ten laws, each traced to a real scar or an independently-found gap. Read this first - it is the one document in here derived for this specific practice, not general-purpose doctrine. |
-| `process/` | The operating rules - the investigation ladder, the doctrine, the healing loop, the constitution guide. **Rules.** |
+| `process/` | The operating rules - the investigation ladder, the doctrine, the healing loop, the constitution guide, and INVEST + its provenance (the output format). **Rules.** |
 | `agents/` | The `responder` agent type: the evidence-gathering role and the premise-adversary role, and why they must never be the same dispatch. |
 | `LESSONS.md` | Every lesson, with the scar that earned it. Read this before adopting anything. |
 | `ADOPTION.md` | **Start here.** The staged path, and what NOT to install yet. |

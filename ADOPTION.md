@@ -86,16 +86,21 @@ got a genuinely independent second look before being reported as a conclusion.
 **Trigger: an investigation's conclusion needs to survive beyond the chat transcript it was
 reached in - handed to another operator, cited in a runbook, referenced in a postmortem.**
 
-**Not built yet, and deliberately not copied wholesale from `agent-herder`.**
-`agent-herder/scripts/Land-Verdict.ps1` and `Verify-Verdict.ps1` solve exactly this problem for
-a build practice - extract a dispatched agent's verdict verbatim rather than hand-transcribing
-it, and hash it so tampering is checkable rather than asserted - but they are wired to a
-checkpoint tool (`Entire.io`) this environment does not have. When this stage is actually
-triggered, adapt the pattern against what this environment actually offers: the Claude Code
-session transcript under `~/.claude/projects/<project>/<session>.jsonl`, and a background
-dispatch's own output file under the session's task directory. Building this before an
-investigation has actually needed it would be inventing prior art nobody has used yet - the
-exact failure class this kit exists to prevent, one rung over.
+**Built 2026-09-16, on the day this practice actually hit the trigger** - not before, per this
+document's own rule against inventing prior art for a rung nobody has run. Take
+`process/invest-and-provenance.md`: two artifacts, not one - INVEST (the polished conclusion)
+and a Provenance document (the full, deliberately untrimmed working record). The same
+investigation that triggered this stage is also the worked exemplar: a closed report got a
+second adversarial look the next day, and the correction that look produced (a wrong
+intermediate number, caught against the raw working record rather than the polished summary)
+is the concrete reason the split exists rather than a single document.
+
+**Still not built:** a verdict-landing script. `agent-herder/scripts/Land-Verdict.ps1` and
+`Verify-Verdict.ps1` solve the adjacent problem for a build practice - extract a dispatched
+agent's verdict verbatim, hash it so tampering is checkable - wired to a checkpoint tool
+(`Entire.io`) this environment does not have. Adapt against what this environment actually
+offers (the session transcript, a background dispatch's own output file) when a real need for
+automated landing/hashing shows up, not before.
 
 ---
 

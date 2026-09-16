@@ -109,7 +109,30 @@ A "ruled out" section without that same rigor would have been the easiest place 
 corner, precisely because a negative result feels like it needs less proof than a positive
 one.*
 
-## 8. A rung-sorted queue beats a first-in-first-out queue for triage
+## 8. INVEST and its provenance are different documents with different jobs
+
+A polished conclusion and a full working record cannot be the same document without one of them
+losing its job. The polished one needs to be short enough that a handoff reads it; the working
+record needs to keep every number, every dead end, and every correction, precisely because it
+will get checked later against a claim someone doubts.
+
+*Scar: 2026-09-16, a second look at an already-closed, already-handed-off TLS-reset report -
+attacking its own settled premise, not investigating a new incident. That second look caught a
+wrong intermediate result (a data-analysis indexing bug that had produced a false "0 failures"
+conclusion) only because a teammate looked at the raw numbers still sitting in the working
+record and asked "are you confident?" If the only surviving artifact had been the polished
+conclusion, with that number already smoothed into prose, there would have been nothing left to
+check the claim against. See `process/invest-and-provenance.md`.*
+
+**Corollary, same investigation, caught in real time:** the polished artifact was first named
+after this practice's own borrowed term, "RCA" - a different practice's label, with that
+practice's connotations, no business being forced on whoever adopts this doctrine next. Renamed
+to **INVEST**, a practice-agnostic name built for this doctrine specifically, after the
+practice owner caught the habit mid-draft. Worth recording as its own lesson: **a borrowed name
+is itself a Chesterton's fence** - it will not visibly break anything, right up until someone
+else tries to adopt the doctrine and inherits vocabulary that was never theirs to inherit.
+
+## 9. A rung-sorted queue beats a first-in-first-out queue for triage
 
 Incoming work sorted by a small number of standing priority rungs, with the highest live rung
 worked next, surfaces what actually matters faster than working items in arrival order -
